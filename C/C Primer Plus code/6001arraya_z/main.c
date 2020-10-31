@@ -2,6 +2,11 @@
 
 int main()
 {
-    printf("Hello World!\n");
+    char a[26];
+    for(int i=0; i<26 ; i++)
+    {
+        a[i] = 'a' + i;
+        printf("a[%d]=%c\n", i, a[i]);
+    }
     return 0;
 }
