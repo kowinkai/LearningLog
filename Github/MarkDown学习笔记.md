@@ -89,8 +89,8 @@ int a;
 var a = 10; 
 console.log(a);
 ```
-- 块式代码另一种表示法：在每行代码的前面加入6个空格符号。
-      console.log(a);
+- 块式代码另一种表示法：在每行代码的前面加入6个空格符号。(HBuilder能正常显示，Github上显示不正常，这是平台差异性)
+				console.log(a);
 
 
 ### 表格
