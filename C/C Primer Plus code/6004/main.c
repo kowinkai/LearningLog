@@ -1,40 +1,74 @@
 #include<stdio.h>
+/*
+之前进来就写，被绕进循环里面，头都写晕了，几个小时写不出来，后来看了一下别人写的代码，从新梳理了一下思路：
 
-int main(void)
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
+拆分为三个三角形
+
+第一区(看不见的空格)：
+OOOO
+OOO
+OO
+O
+
+第二区（顺序字母）：
+    A
+   AB
+  ABC
+ ABCD
+ABCDE
+
+去掉空格：
+A
+AB
+ABC
+ABCD
+ABCDE
+
+第三区（逆序字母）：
+
+A
+BA
+CBA
+DCBA
+
+使用一个外循环控制行，平行的三个内循环分别对应一二三区
+*/
+
+int main()
 {
-    char ch;
-    char space=' ';
-    char a='A';
+    int i;
+    int j1, j2, j3;     //j1管空格，j2管顺序字母，j3管逆序字母
+    char s = 'A';
+    printf("请输入以A开头的三角塔最底层的字母（大写）：");
     char x;
-    int i,j,n,k,l;
-
-    printf("请输入一个大写字母：\n");
-    scanf("%c",&ch);
-
-    n=ch-64;   //A的ASCII码值为65
-    for(i=0;i<n;i++)
+    scanf("%c", &x);
+    x = x - s + 1;      //x为计算以A开头到输入的字母需要多少行
+    printf("x=%d行\n", x);
+    for (i = 0; i < x; i++)
     {
-        for(j=0;j<=n-i;j++)   //空格数
+        for(j1 = i; j1 < x-1; j1++)
         {
-            putchar(space);
+            printf(" ");
         }
-
-        a='A';   //放在循环外是为了使每次从A开始
-        for(k=0;k<=i;k++)   //升序
+        s = 'A';
+        for(j2 = 0; j2 <= i; j2++)
         {
-            printf("%c",a);
-            a++;
+            printf("%c", s);
+            s++;
         }
-
-        x=ch+i-n;
-        for(l=i;l>0;l--)   //降序
+        s -= 2;         //原本就要减1，在j2循环最后还加了1，所以j3循环前减2
+        for(j3 = 0; j3 < i; j3++)
         {
-            printf("%c",x);
-            x--;
+            printf("%c", s);
+            s--;
         }
         printf("\n");
     }
-
-
     return 0;
- }
+}
+
