@@ -89,7 +89,8 @@ int a;
 var a = 10; 
 console.log(a);
 ```
-
+- 块式代码另一种表示法：在每行代码的前面加入4个空格符号。
+    console.log(a);
 
 
 ### 表格
