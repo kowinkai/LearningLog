@@ -403,11 +403,11 @@ c．税率 前300美元为15%
 
 8. 习7中的假设a，使程序提供一个选择工资等级的菜单。用switch选择工资等级。程序运行的开头应该像这样：  
   Enter the number corresponding to the desired pay rate or action:  
-  1) $8.75/hr  
-  2) $9.33/hr  
-  3) $lO.OO/hr  
-  4) $11.20/hr  
-  5) quit  
+  1． $8.75/hr  
+  2． $9.33/hr  
+  3． $lO.OO/hr  
+  4． $11.20/hr  
+  5． quit  
   如果选择l到4．那么程序应该请求输入工作小时数。程序应该一直循环运行，直到输入5。如果输入l到5以外的选项，那么程序应该提醒用户合适的选项是哪些，然后再循环。用#define为各种工资等级和税率定义常量。  
   [7008代码](C_Primer_Plus_code/7008/main.c)
 
