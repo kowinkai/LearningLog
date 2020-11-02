@@ -160,7 +160,15 @@ a.100 > 3 && 'a' > 'c'
 b.100 > 3 || 'a' > 'c'  
 c.!(100>3)  
 ```
-答：
+<details>
+     <summary>答题：</summary>
+
+     Something small enough to escape casual notice.
+	 a
+	 b
+	 c
+ </details>
+
 
 2、构造一个表达式来表示下列条件：  
 ```
