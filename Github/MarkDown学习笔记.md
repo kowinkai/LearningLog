@@ -103,8 +103,8 @@ console.log(a);
 ### 表格
 - 表头：编写的第一行；使用竖线包括内容的方式实现，包括的数量代表有多少列。|aa|bb|cc|dd|	
 - 横线：编写的第二行；使用竖线加多个-号，横线用来调整格式，不会显示出来。|---|----|-----|---|
-- 第一行内容：编写的第三行；在多个竖线内相应的位置编写内容，往下均为内容。
-- 
+- 第一行内容：编写的第三行；在多个竖线内相应的位置编写内容，往下均为表格内容区域。
+
 
 |这   |是   |表    |头   |	
 |-|--|:---:|----:|
@@ -123,6 +123,7 @@ console.log(a);
 ### 水平分割线
 - 用代码实现：\<hr> Horizontal Rule
  <hr>
+
 - 用符号实现：第一行用---实现；第二行用***实现；第三行用___实现；注意使用隔行避免混淆成标题2。
 
   ---
@@ -141,18 +142,18 @@ console.log(a);
 ### GFM语法
 - GFM：GitHub支持的语法在标准的markdown语法的基础上做出了修改，称为 GitHub Flavored Markdown，简称GFW。
 - task list：将无序列表图标改为可选项图标，在-后文字前加入方括号，括号内可以是空格或x，方括号左右两边隔空格。
-- [ ] 方括号里是空格。
-- [x] 方括号里是x字符。	
+  - [ ] 方括号里是空格。
+  - [x] 方括号里是x字符。	
 
 
 - emoji：表情符号的使用方法是写入相应的表情英文，左右两边各一个冒号->`:emoji code:`	
   [表情符号列表](https://github.com/guodongxiaren/README/blob/master/emoji.md)	
+
   :blush:	
   :angry:	
 
+- 果冻虾仁写的MarkDown语法介绍：[链接地址](https://github.com/guodongxiaren/README)
 - 语法详细使用方法请查阅官方资料。
-- 果冻虾仁写的MarkDown语法介绍：	
-  [链接地址](https://github.com/guodongxiaren/README)
 
 
 
