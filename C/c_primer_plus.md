@@ -19,18 +19,18 @@
 - 由ctype.h头文件提供的字符分析函数系列。
 
 ### 程序清单：
-[701colddays](C_Primer_Plus_code/701colddays/main.c)	
-[702cypher1](C_Primer_Plus_code//main.c)	
-[703cypher2](C_Primer_Plus_code/703cypher2/main.c)	
-[704electric](C_Primer_Plus_code/704electric/main.c)	
-[705divisors](C_Primer_Plus_code/705divisors/main.c)	
-[706chcount](C_Primer_Plus_code/706chcount/main.c)	
-[707wordcnt](C_Primer_Plus_code/707wordcnt/main.c)	
-[708paint](C_Primer_Plus_code/708paint/main.c)	
-[709skippart](C_Primer_Plus_code/709skippart/main.c)	
-[710break](C_Primer_Plus_code/710break/main.c)	
-[711animals](C_Primer_Plus_code/711animals/main.c)	
-[712vowels](C_Primer_Plus_code/712vowels/main.c)	
+[701colddays](C_Primer_Plus_code/701colddays/main.c)  
+[702cypher1](C_Primer_Plus_code//main.c)  
+[703cypher2](C_Primer_Plus_code/703cypher2/main.c)  
+[704electric](C_Primer_Plus_code/704electric/main.c)  
+[705divisors](C_Primer_Plus_code/705divisors/main.c)  
+[706chcount](C_Primer_Plus_code/706chcount/main.c)  
+[707wordcnt](C_Primer_Plus_code/707wordcnt/main.c)  
+[708paint](C_Primer_Plus_code/708paint/main.c)  
+[709skippart](C_Primer_Plus_code/709skippart/main.c)  
+[710break](C_Primer_Plus_code/710break/main.c)  
+[711animals](C_Primer_Plus_code/711animals/main.c)  
+[712vowels](C_Primer_Plus_code/712vowels/main.c)  
 
 
 ### 知识点：
@@ -41,7 +41,7 @@
   ```
 	if(expression)
 		statement
-  ```
+  ```  
 
   如果expression求得的值为真（非零），就执行statement；否则，跳过该语句。和while循环一样，statement即可以是单个语句也可以是一个代码块（术语上称为复合语句）。这种结构和while语句很相似。主要的区别在于在if语句中，判断和执行（如果可能的话）仅有一次，而在while循环中，判断和执行可以重复多次。通常，expression是一个关系表达式。
 
@@ -67,12 +67,12 @@
 
   从技术角度讲，if else语句作为单个语句，所以不需要括上花括号。外部if也是单个语句，所以也不需要花括号。然而，当语句很长时，花括号使人更容易清楚发生了什么，并且当后来将其他语句加到if或循环中时它们提供了保护。
 
-- C的逻辑运算符
+- C的逻辑运算符  
 |运算符|含义|
 |:----:|----|
 |&&|与|
 |\|\||或|
-|！|非|
+| ！|非|
 
   C99标准为逻辑运算符增加了可供选择的拼写法。它们在iso646.h头文件里定义。如果包含了这个头文件，就可以用and代替&&，用or代替||，用not代替！。
 
@@ -107,7 +107,7 @@
 
   什么时候该使用swtich，而什么时候又该使用if else结构呢？通常是没有选择的。如果选择是基于求一个浮点型变量或表达式的值，就不能使用switch。如果变量必须落入某个范围，也不能很方便地使用swith。然而，如果可以使用switch，程序通常运行的稍微快点，而且占据较少的代码。
 
-- goto语句	
+- goto语句  
 `	goto label;`将跳到代码有该标签的位置：`label: statement`	
 
   Kernighan和Ritchie认为goto语句“非常容易被滥用”，并且建议“要谨慎使用，或者根本不用”。
@@ -116,11 +116,11 @@
 
   但有一种goto的使用被许多C专业人员所容忍：在出现故障时从一组嵌套的多重循环中跳出（单条break仅仅跳出最里层的循环）。
 
-- 专门为面向字符I/O而设计的一对C函数：getchar（）和putchar（）	
+- 专门为面向字符I/O而设计的一对C函数：getchar（）和putchar（）  
 `ch = getchar ();` 与右边的语句有同样的效果：`scanf("%c", &ch);`	
 `putchar(ch);`与右边的语句有同样的效果：`printf("%c", ch);`	
 
-- ctype.h系列字符函数
+- ctype.h系列字符函数  
 |函数名|为如下参数时，返回值为真|
 |-----|----------------------|
 |isalnum()|字母数字（字母或数字）|
