@@ -3,7 +3,7 @@
 （存放在Github目录下）
 
 2. C语言学习  
-  <details>
+   <details>
      <summary>章节</summary>
 	 
      第1章  
