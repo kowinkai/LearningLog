@@ -118,7 +118,7 @@
   但有一种goto的使用被许多C专业人员所容忍：在出现故障时从一组嵌套的多重循环中跳出（单条break仅仅跳出最里层的循环）。
 
 - 专门为面向字符I/O而设计的一对C函数：getchar（）和putchar（）  
-`ch = getchar ();` 与右边的语句有同样的效果：`scanf("%c", &ch);`	
+`ch = getchar ();` 与右边的语句有同样的效果：`scanf("%c", &ch);`  
 `putchar(ch);`与右边的语句有同样的效果：`printf("%c", ch);`	
 
 - ctype.h系列字符函数  
