@@ -1,6 +1,5 @@
 # 学习笔记
-1. git学习     
-（存放在Github目录下）
+1. [git学习](Github/git.md)  
 
 2. C Primer Plus学习(第五版)  
    <details>
