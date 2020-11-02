@@ -152,10 +152,21 @@ console.log(a);
   :blush:	
   :angry:	
 
-- 果冻虾仁写的MarkDown语法介绍：[链接地址](https://github.com/guodongxiaren/README)
+- 果冻虾仁写的MarkDown语法介绍：
+
+  [链接地址](https://github.com/guodongxiaren/README)
 - 语法详细使用方法请查阅官方资料。
 
+---
 
+- MarkDown在线通关:
+
+  [www.markdowntutorial.com](https://www.markdowntutorial.com/)
+- MarkDown练习之how-to-markdown通关(需要安装Node.js):
+
+  安装： `npm install how-to-markdown -g`	
+  运行： 在命令行下输入how-to-markdown
+  
 
 
 <!--             下面是本文档中用到的链接                   -->		
