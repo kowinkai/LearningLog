@@ -160,5 +160,175 @@ a.100 > 3 && 'a' > 'c'
 b.100 > 3 || 'a' > 'c'  
 c.!(100>3)  
 ```
+答：
+
+2、构造一个表达式来表示下列条件：  
+```
+a.number等于或大于90，但是小于100
+b.ch不是字符q也不是字符k
+c.number界于1到9之间（包括1和9），但是不等于5
+d.number不在1到9之间
+```
+答：
+
+3、下面程序中的关系表达式过于复杂，并有些错误，请简化并改正它。
+ ```
+ #include <stdio.h> 
+ 1 int main(void)
+ 2 {
+ 3     int weight, height; /* weight以磅为单位，height以英寸为单位 */
+ 4 
+ 5     scanf("%d, weight, height);
+ 6     if(weight < 100 && height > 64)
+ 7         if(height >= 72)
+ 8             printf("You are very tall for your weight.\n");
+ 9         else if(height < 72 && > 64)
+10             printf("You are tall for your weight.\n");
+11     else if(weight > 300 && !(weight <= 300)
+12             && height < 48)
+13         if(!(height >= 48))
+14             printf(" You are quite short for your weight.\n");
+15     else
+16         printf("Your weight is ideal.\n");
+17 
+18     return 0;
+19 }
+```
+答：
+
+4、下列每个表达式的数值是多少？
+```
+a.5 > 2
+b.3 + 4 > 2 && 3 < 2
+c.x >= y || y > x
+d.d = 5 + (6 > 2)
+e.'X' > 'T' ? 10 : 5
+f. x > y ? y > x : x > y
+```
+答：
+
+5、下列程序将打印出什么？
+```
+#include <stdio.h>
+int main(void)
+{
+    int num;
+    for(num = 1; num <= 11; num++)
+    {
+        if(num % 3 == 0)
+            putchar('$');
+        else
+            putchar('*');
+            putchar('#');
+        putchar('%');
+    }
+    putchar('\n');
+    return 0;
+}
+```
+答：
+
+6、下列程序将打印出什么？
+```
+#include <stdio.h>
+int main(void)
+{
+    int i = 0;
+    while(i < 3)
+    {
+        switch(i++)
+        {
+            case 0: printf("fat");
+            case 1: printf("hat");
+            case 2: printf("cat");
+            default: printf("Oh no!");
+        }
+        putchar('\n');
+    }
+    return 0;
+}
+```
+答：
+
+7、下列程序有什么错误？
+```
+ 1 #include <stdio.h>
+ 2 int main(void)
+ 3 {
+ 4     char ch;
+ 5     int lc = 0;    /*统计小写字符
+ 6     int uc = 0;    /*统计大写字符
+ 7     int oc = 0;    /*统计其他字符
+ 8 
+ 9     while((ch = getchar()) != '#')
+10     {
+11         if('a' <= ch >= 'z')
+12             lc++;
+13         else if(!(ch < 'A') || !(ch > 'Z')
+14             uc++;
+15         oc++;
+16     }
+17     printf("%d lowercase, %d uppercase, %d other, lc, uc, oc");
+18     return 0;
+19 }
+```
+答：
+
+8、下列程序将打印出什么？
+```
+/* retire.c*/
+#include <stdio.h>
+int main(void)
+{
+    int age = 20;
+
+    while(age++ <= 65)
+    {
+        if((age % 20) == 0)      /* age能被20整除吗？*/
+            printf("You are %d. Here is a raise.\n", age);
+        if(age = 65)
+            printf("You are %d. Here is your gold watch.\n", age);
+    }
+    return 0;
+}
+```
+答：
+
+9、当给定下述输入时，下列程序将打印出什么？
+```
+q
+c
+g
+b
+#include <stdio.h>
+int main(void)
+{
+    char ch;
+
+    while((ch = getchar()) != '#')
+    {
+        if(ch == '\n')
+            continue;
+        printf("Step 1\n");
+        if(ch == 'c')
+            continue;
+        else if(ch == 'b')
+            break;
+        else if(ch == 'g')
+            goto laststep;
+        printf("Step 2\n");
+        laststep: printf("Step 3\n");
+    }
+    printf("Done!\n");
+    return 0;
+}
+```
+答：
+
+10、重写题目9的程序，以使它表现相同的行为但不使用continue或goto。
+
+答：
 
 ### 编程练习
+
+
