@@ -402,8 +402,7 @@ c．税率 前300美元为15%
 [7007代码](C_Primer_Plus_code/7007/main.c)
 
 8. 习7中的假设a，使程序提供一个选择工资等级的菜单。用switch选择工资等级。程序运行的开头应该像这样：  
-Enter the number corresponding to the desired pay rate or action:
-
+  Enter the number corresponding to the desired pay rate or action:  
    1) $8.75/hr  
    2) $9.33/hr  
    3) $lO.OO/hr  
