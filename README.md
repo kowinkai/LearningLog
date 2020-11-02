@@ -2,8 +2,8 @@
 1. git学习     
 （存放在Github目录下）
 
-2. C语言学习     
-<details>
+2. C语言学习  
+  <details>
      <summary>章节</summary>
 	 
      第1章  
