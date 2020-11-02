@@ -149,7 +149,7 @@ console.log(a);
 <details>
      <summary>查询详解链接</summary>
 	 
-	[详解](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/details)
+  [详解](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/details)
  </details>
 
 ### GFM语法
