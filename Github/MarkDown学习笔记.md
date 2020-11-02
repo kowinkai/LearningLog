@@ -150,6 +150,7 @@ console.log(a);
   [表情符号列表](https://github.com/guodongxiaren/README/blob/master/emoji.md)	
 
   :blush:	
+
   :angry:	
 
 - 果冻虾仁写的MarkDown语法介绍：
@@ -164,7 +165,8 @@ console.log(a);
   [www.markdowntutorial.com](https://www.markdowntutorial.com/)
 - MarkDown练习之how-to-markdown通关(需要安装Node.js):
 
-  安装： `npm install how-to-markdown -g`	
+  安装： `npm install how-to-markdown -g`
+
   运行： 在命令行下输入how-to-markdown
   
 
