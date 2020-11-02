@@ -139,17 +139,18 @@ console.log(a);
 - MarkDown是支持HTML语法的,上面显示的Hello World!就是用HTML写的：`\<p align='center'>Hello World!\</p>`	
 - 注释： \<!--这里就是注释内容,可以多行注释-->
 - HTML语言：HTML不是编程语言，是用来描述网页文档（页面结构）的一种标记语言。HTML指超文本标记语言（Hyper Text Markup Language），之所以称为超文本标记语言，是因为文本中包含了所谓“超级链接”点。目前互联网上的绝大部分网页都是使用HTML编写的。
-- \<details>元素:可创建一个挂件，仅在被切换成展开状态时，它才会显示内含的信息。\<summary> 元素可为该部件提供概要或者标签。（summary与正文注意隔行）
+- 细信息展现元素:\<details>元素可创建一个挂件，仅在被切换成展开状态时，它才会显示内含的信息。\<summary> 元素可为该部件提供概要或者标签。（summary与正文注意隔行）
 ```
 <details>
      <summary>Details</summary>
+	 
      Something small enough to escape casual notice.
  </details>
 ```
 <details>
-     <summary>查询详解链接</summary>
+    <summary>详细信息展现元素</summary>
 	 
-  [详解](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/details)
+   [详解](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/details)
  </details>
 
 ### GFM语法
