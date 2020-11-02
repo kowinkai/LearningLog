@@ -161,12 +161,9 @@ b.100 > 3 || 'a' > 'c'
 c.!(100>3)  
 ```
 <details>
-     <summary>答题：</summary>
+     <summary>答：</summary>
 
-     Something small enough to escape casual notice.
-	 a
-	 b
-	 c
+	
  </details>
 
 
@@ -177,7 +174,11 @@ b.ch不是字符q也不是字符k
 c.number界于1到9之间（包括1和9），但是不等于5
 d.number不在1到9之间
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 3、下面程序中的关系表达式过于复杂，并有些错误，请简化并改正它。
  ```
@@ -202,7 +203,11 @@ d.number不在1到9之间
 18     return 0;
 19 }
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 4、下列每个表达式的数值是多少？
 ```
@@ -213,7 +218,11 @@ d.d = 5 + (6 > 2)
 e.'X' > 'T' ? 10 : 5
 f. x > y ? y > x : x > y
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 5、下列程序将打印出什么？
 ```
@@ -234,7 +243,11 @@ int main(void)
     return 0;
 }
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 6、下列程序将打印出什么？
 ```
@@ -256,7 +269,11 @@ int main(void)
     return 0;
 }
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 7、下列程序有什么错误？
 ```
@@ -280,7 +297,11 @@ int main(void)
 18     return 0;
 19 }
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 8、下列程序将打印出什么？
 ```
@@ -300,7 +321,11 @@ int main(void)
     return 0;
 }
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 9、当给定下述输入时，下列程序将打印出什么？
 ```
@@ -331,11 +356,19 @@ int main(void)
     return 0;
 }
 ```
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 10、重写题目9的程序，以使它表现相同的行为但不使用continue或goto。
 
-答：
+<details>
+     <summary>答：</summary>
+
+	
+ </details>
 
 ### 编程练习
 
