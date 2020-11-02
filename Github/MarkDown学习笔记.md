@@ -147,7 +147,7 @@ console.log(a);
      Something small enough to escape casual notice.
  </details>
 ```
-<details>
+   <details>
     <summary>详细信息展现元素</summary>
 	 
    [详解](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/details)
