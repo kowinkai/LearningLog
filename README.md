@@ -3,19 +3,27 @@
 （存放在Github目录下）
 
 2. C语言学习     
-（存放在C目录下）
+<details>
+     <summary>章节</summary>
+	 
+     第1章  
+	 第2章  
+	 第3章  
+	 第4章  
+	 第5章  
+	 第6章  
+[第7章 C控制语句:分支和跳转](C/c_primer_plus07.md)  
+	 第8章  
+	 第9章  
+	 第10章  
+	 第11章  
+	 第12章  
+	 第13章  
+	 第14章  
+	 第15章  
+	 第16章  
+	 第17章  
+ </details>
 
 3. [MarkDown学习](Github/MarkDown学习笔记.md)
-    * [换行](Github/MarkDown学习笔记.md#换行)
-    * [标题大小](Github/MarkDown学习笔记.md#标题大小)
-    * [段落](Github/MarkDown学习笔记.md#段落)
-    * [强调](Github/MarkDown学习笔记.md#强调)
-    * [列表](Github/MarkDown学习笔记.md#列表)
-    * [链接](Github/MarkDown学习笔记.md#链接)
-    * [图片](Github/MarkDown学习笔记.md#图片)
-    * [引用](Github/MarkDown学习笔记.md#引用)
-    * [代码块](Github/MarkDown学习笔记.md#代码块)
-    * [表格](Github/MarkDown学习笔记.md#表格)
-    * [水平分割线](Github/MarkDown学习笔记.md#水平分割线)
-    * [HTML语法](Github/MarkDown学习笔记.md#HTML语法)
-    * [GFM语法](Github/MarkDown学习笔记.md#GFM语法)
+
