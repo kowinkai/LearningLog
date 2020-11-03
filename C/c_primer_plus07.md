@@ -403,6 +403,7 @@ int main(void)
 <details>
      <summary>答：</summary>
 
+	//本题需要思考一个问题，\n与getchar之间的关系
 	#include <stdio.h>
 	int main(void)
 	{
