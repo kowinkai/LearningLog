@@ -40,7 +40,7 @@ C是一种需要编译的语言。C编译器和链接器是将C语言源代码�
  </details>
  
 3、编程的7个主要步骤是什么？
-<details>
+   <details>
      <summary>答：</summary>
 
 	A．定义程序目标。  
