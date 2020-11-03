@@ -110,7 +110,6 @@ break语句用于循环和switch中，而continue仅用于循环。但是，如�
 什么时候该使用swtich，而什么时候又该使用if else结构呢？通常是没有选择的。如果选择是基于求一个浮点型变量或表达式的值，就不能使用switch。如果变量必须落入某个范围，也不能很方便地使用swith。然而，如果可以使用switch，程序通常运行的稍微快点，而且占据较少的代码。  
 
 - goto语句  
-
 `	goto label;`将跳到代码有该标签的位置：`label: statement`	
 
   Kernighan和Ritchie认为goto语句“非常容易被滥用”，并且建议“要谨慎使用，或者根本不用”。  
@@ -120,7 +119,6 @@ break语句用于循环和switch中，而continue仅用于循环。但是，如�
   但有一种goto的使用被许多C专业人员所容忍：在出现故障时从一组嵌套的多重循环中跳出（单条break仅仅跳出最里层的循环）。  
 
 - 专门为面向字符I/O而设计的一对C函数：getchar（）和putchar（）  
-
 `ch = getchar ();` 与右边的语句有同样的效果：`scanf("%c", &ch);`  
 `putchar(ch);`与右边的语句有同样的效果：`printf("%c", ch);`	
 
@@ -250,7 +248,7 @@ int main(void)
      <summary>答：</summary>
 
 	
- </details>  
+ </details>
 
 6、下列程序将打印出什么？
 ```
