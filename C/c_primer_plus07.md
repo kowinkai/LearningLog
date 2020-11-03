@@ -20,7 +20,7 @@
 
 ### 程序清单：
 [701colddays.c](C_Primer_Plus_code/701colddays/main.c)  
-[702cypher1.c](C_Primer_Plus_code//main.c)  
+[702cypher1.c](C_Primer_Plus_code/702cypher1/main.c)  
 [703cypher2.c](C_Primer_Plus_code/703cypher2/main.c)  
 [704electric.c](C_Primer_Plus_code/704electric/main.c)  
 [705divisors.c](C_Primer_Plus_code/705divisors/main.c)  
