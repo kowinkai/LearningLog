@@ -117,6 +117,8 @@ break语句用于循环和switch中，而continue仅用于循环。但是，如�
   跳出循环：用break代替。实际上，break和continue是goto的特殊形式。使用它们的好处是它们的名字表明它们意味着什么；并且，因为它们不使用标签，所以不存在放错标签位置的潜在危险。  
 
   但有一种goto的使用被许多C专业人员所容忍：在出现故障时从一组嵌套的多重循环中跳出（单条break仅仅跳出最里层的循环）。  
+  
+  程序代码执行时经过goto的标签会被执行。
 
 - 专门为面向字符I/O而设计的一对C函数：getchar（）和putchar（）  
 
@@ -166,9 +168,11 @@ c.!(100>3)
 <details>
      <summary>答：</summary>
 
-	
- </details>
-
+	a. false
+	b. true
+	c. false
+ </details>  
+<br/>  
 
 2、构造一个表达式来表示下列条件：  
 ```
@@ -180,8 +184,12 @@ d.number不在1到9之间
 <details>
      <summary>答：</summary>
 
-	
- </details>
+	a. number >= 90 && number < 100
+	b. ch != 'q' && ch != 'k'
+	c. (number >= 1 && number <= 9) && number != 5
+	d. number < 1 || number > 9
+ </details>  
+<br/>  
 
 3、下面程序中的关系表达式过于复杂，并有些错误，请简化并改正它。  
  ```
@@ -209,8 +217,10 @@ d.number不在1到9之间
 <details>
      <summary>答：</summary>
 
-	
+	 5     scanf("%d, weight, height);   		weight与height是int类型需要加取地址运算符&
+	 9         else if(height < 72 && > 64)     第9行有问题，这题没明确说明需求，要去猜不想做。
  </details>
+<br/>  
 
 4、下列每个表达式的数值是多少？  
 ```
@@ -224,8 +234,14 @@ f. x > y ? y > x : x > y
 <details>
      <summary>答：</summary>
 
-	
+	a. 1
+	b. 0
+	c. 1
+	d. 6
+	e. 10
+	f. y > x 或 y > x 在逻辑上都为假 ->  false  -> 0
  </details>
+<br/>  
 
 5、下列程序将打印出什么？  
 ```
@@ -249,8 +265,9 @@ int main(void)
 <details>
      <summary>答：</summary>
 
-	
+	*#%*#%$#%*#%*#%$#%*#%*#%$#%*#%*#%
  </details>
+<br/>  
 
 6、下列程序将打印出什么？
 ```
@@ -275,8 +292,11 @@ int main(void)
 <details>
      <summary>答：</summary>
 
-	
+	fathatcatOh no!
+	hatcatOh no!
+	catOh no!
  </details>
+<br/>  
 
 7、下列程序有什么错误？
 ```
@@ -303,8 +323,12 @@ int main(void)
 <details>
      <summary>答：</summary>
 
-	
+	11  if('a' <= ch >= 'z') 应是 if('a' <= ch && ch >= 'z')
+	13  else if(!(ch < 'A') || !(ch > 'Z') 应是 else if(!(ch < 'A') && !(ch > 'Z'))
+	15  oc++; 应是 else oc++;
+	17  printf("%d lowercase, %d uppercase, %d other, lc, uc, oc");  双引号位置错误！
  </details>
+<br/>  
 
 8、下列程序将打印出什么？
 ```
@@ -327,8 +351,9 @@ int main(void)
 <details>
      <summary>答：</summary>
 
-	
+	无限打印 You are 65. Here is your gold watch.
  </details>
+<br/>  
 
 9、当给定下述输入时，下列程序将打印出什么？
 ```
@@ -362,16 +387,49 @@ int main(void)
 <details>
      <summary>答：</summary>
 
-	
+	Step 1
+	Step 2
+	Step 3
+	Step 1
+	Step 1
+	Step 3
+	Step 1
+	Done!
  </details>
+<br/>  
 
 10、重写题目9的程序，以使它表现相同的行为但不使用continue或goto。
 
 <details>
      <summary>答：</summary>
 
-	
+	#include <stdio.h>
+	int main(void)
+	{
+		char ch;
+		
+		while((ch = getchar()) != '#')
+		{
+			if(ch != '\n')
+			{
+			printf("step 1\n");
+			if(ch == 'b')
+				break;
+			if(ch == 'g')
+				printf("step 3\n");
+			else if(ch != 'c' )
+			{
+				printf("step 2\n");
+				printf("step 3\n");
+			}
+		}
+	}
+	printf("Done!\n");
+	return 0;
+	}
+
  </details>
+<br/>  
 
 ### 编程练习
 
