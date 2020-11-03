@@ -105,11 +105,6 @@ console.log(a);
 - 块式代码另一种表示法：在每行代码的前面加入6个空格符号。(HBuilder能正常显示，Github上显示不正常，这是平台差异性)
 				console.log(a);
 
-   <details>
-     <summary>代码块：代码内一个TAB</summary>  
-
-	我前面是一个TAB键
-</details>
 
 ### 表格
 - 表头：编写的第一行；使用竖线包括内容的方式实现，包括的数量代表有多少列。|aa|bb|cc|dd|	

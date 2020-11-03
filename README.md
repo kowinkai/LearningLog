@@ -1,5 +1,5 @@
 # 学习笔记
-1. [git学习](Github/git.md)  
+1. [Git/Github学习](Github/git.md)  
 
 2. C Primer Plus学习(第五版)  
    <details>
@@ -22,7 +22,7 @@
 第15章  
 第16章  
 第17章  
- </details>
+</details>
 
 3. [MarkDown学习](Github/MarkDown学习笔记.md)
 
