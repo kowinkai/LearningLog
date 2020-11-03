@@ -120,7 +120,8 @@ break语句用于循环和switch中，而continue仅用于循环。但是，如�
 
 - 专门为面向字符I/O而设计的一对C函数：getchar（）和putchar（）  
 `ch = getchar ();` 与右边的语句有同样的效果：`scanf("%c", &ch);`  
-`putchar(ch);`与右边的语句有同样的效果：`printf("%c", ch);`	
+
+  `putchar(ch);`与右边的语句有同样的效果：`printf("%c", ch);`	
 
 - ctype.h系列字符函数  
 
