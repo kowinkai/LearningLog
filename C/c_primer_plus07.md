@@ -14,23 +14,23 @@
 - 使用逻辑运算符将关系表达式组合为更加复杂的判断表达式。
 - C的条件运算符。
 - switch语句。
-- breda、continue和goto跳转。
+- break、continue和goto跳转。
 - 使用C的字符I/O函数：getchar（）和putchar（）。
 - 由ctype.h头文件提供的字符分析函数系列。
 
 ### 程序清单：
-[701colddays.c](C_Primer_Plus_code/701colddays/main.c)  
-[702cypher1.c](C_Primer_Plus_code/702cypher1/main.c)  
-[703cypher2.c](C_Primer_Plus_code/703cypher2/main.c)  
-[704electric.c](C_Primer_Plus_code/704electric/main.c)  
-[705divisors.c](C_Primer_Plus_code/705divisors/main.c)  
-[706chcount.c](C_Primer_Plus_code/706chcount/main.c)  
-[707wordcnt.c](C_Primer_Plus_code/707wordcnt/main.c)  
-[708paint.c](C_Primer_Plus_code/708paint/main.c)  
-[709skippart.c](C_Primer_Plus_code/709skippart/main.c)  
-[710break.c](C_Primer_Plus_code/710break/main.c)  
-[711animals.c](C_Primer_Plus_code/711animals/main.c)  
-[712vowels.c](C_Primer_Plus_code/712vowels/main.c)  
+[701colddays.c (if语句使用例子)](C_Primer_Plus_code/701colddays/main.c)  
+[702cypher1.c (getchar() and putchar())](C_Primer_Plus_code/702cypher1/main.c)  
+[703cypher2.c (isalphe使用)](C_Primer_Plus_code/703cypher2/main.c)   
+[704electric.c (if else if 举例)](C_Primer_Plus_code/704electric/main.c)  
+[705divisors.c (嵌套if举例：显示一个数的约数)](C_Primer_Plus_code/705divisors/main.c)  
+[706chcount.c (逻辑与&&运算符举例)](C_Primer_Plus_code/706chcount/main.c)  
+[707wordcnt.c (统计字符、单词和行)](C_Primer_Plus_code/707wordcnt/main.c)  
+[708paint.c (条件运算符举例)](C_Primer_Plus_code/708paint/main.c)  
+[709skippart.c (continue跳出部分循环)](C_Primer_Plus_code/709skippart/main.c)  
+[710break.c (使用break退出循环)](C_Primer_Plus_code/710break/main.c)  
+[711animals.c (使用switch语句例子)](C_Primer_Plus_code/711animals/main.c)  
+[712vowels.c (switch配合的case使用多重标签)](C_Primer_Plus_code/712vowels/main.c)  
 
 
 ### 知识点：
@@ -437,7 +437,7 @@ int main(void)
 1. 编写一个程序。该程序读取输入直到遇到#字符，然后报告读取的空格数目、读取的换行符数目以及读取的所有其他字符数目。  
 [答题代码(7001)](C_Primer_Plus_code/7001/main.c)
 
-2. 编写一个程序，该程序读取输入直到遇到#字符。使程序打印每个输入的字符以及它的十进制ASCII码。每行打印8个字符，编码对。建议：利用字符计数和模运算符(%)在每8个循环周期时打印一个换行符。  
+2. 编写一个程序，该程序读取输入直到遇到#字符。使程序打印每个输入的字符以及它的十进制ASCII码。每行打印8个字符/编码对。建议：利用字符计数和模运算符(%)在每8个循环周期时打印一个换行符。  
 [答题代码(7002)](C_Primer_Plus_code/7002/main.c)
 
 3. 编写一个程序。该程序读取整数，直到输入0。输入终止后，程序应该报告输入的偶数（不包括0）总个数、偶数的平均值，输入的奇数总个数以及奇数的平均值。  
