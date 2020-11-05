@@ -131,6 +131,19 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
   当您编写程序时，要仔细地计划用户界面。尝试预见用户可能犯的错误类型，然后设计您的程序对其进行处理。  
 
 ### 复习题
+区分以下表达式的含义：
+```
+a.while((ch = getc(fp)) != EOF)
+b.while((getchar()) != 'y')
+c.if(scanf("%d %d", &rows, &cols) != 2)
+d.while(scanf("%d", &ch) != 1)
+e.while(getchar() != '\n')
+f.while((ch =getchar()) != '\n')
+g.while((choice = get_choice()) != 'q')
+```
+
+
+
 1、putchar(getchar())是一个有效的表达式，它实现什么功能？getchar(putchar())也有效吗？  
 <details>
      <summary>答：</summary>
