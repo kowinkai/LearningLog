@@ -135,7 +135,7 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 <details>
      <summary>答：</summary>
 
-无效。
+	无效。
  </details>  
 <br/>  
 
@@ -149,10 +149,10 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 <details>
      <summary>答：</summary>
 
-a.H  
-b.发出主板扬声器警报声  
-c.换行  
-d.回退光标  
+	a.H  
+	b.发出主板扬声器警报声  
+	c.换行  
+	d.回退光标  
  </details>  
 <br/>  
 
@@ -160,7 +160,7 @@ d.回退光标
 <details>
      <summary>答：</summary>
 
-count < essay >essayct
+	count < essay >essayct
  </details>  
 <br/>  
 
@@ -174,7 +174,7 @@ c. essay >count
 <details>
      <summary>答：</summary>
 
-c
+	c
  </details>  
 <br/>  
 
@@ -182,7 +182,7 @@ c
 <details>
      <summary>答：</summary>
 
-是文件尾。
+	是文件尾。
  </details>  
 <br/>  
 
@@ -206,8 +206,8 @@ b. 输入如下所示：
 <details>
      <summary>答：</summary>
 
-a. If you qu  
-b. HJacrthjacrt  
+	a. If you qu  
+	b. HJacrthjacrt  
  </details>  
 <br/>  
 
@@ -215,7 +215,7 @@ b. HJacrthjacrt
 <details>
      <summary>答：</summary>
 
-C使用标准I/O包，就屏蔽掉了这些差异。要检查一个换行符。
+	C使用标准I/O包，就屏蔽掉了这些差异。要检查一个换行符。
  </details>  
 <br/>  
 
@@ -223,7 +223,7 @@ C使用标准I/O包，就屏蔽掉了这些差异。要检查一个换行符。
 <details>
      <summary>答：</summary>
 
-取决于接收字符函数的格式，%c按字符收，%d按数字接收。
+	取决于接收字符函数的格式，%c按字符收，%d按数字接收。
  </details>  
 <br/>  
 
