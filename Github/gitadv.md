@@ -97,7 +97,8 @@ git reset HEAD
   - LF:line feed换行，光标下移一行； '\n' = newline
     - Linux:换行 \n
 	- Windows:换行 \r\n
-	- MAC OS:换行 \r
+	- MAC OS:换行 \r  
+	 
   - 自动转换不同平台换行  
     - 提交时转换为LF，检出时转换为CRLF（默认是true开启的）  
 	  git config --global core.autocrlf true  
@@ -107,3 +108,68 @@ git reset HEAD
 	
 	- 查询配置  
 	  git config --list  
+	  
+- 别名
+  - 别名设置(将status别名设置为st)  
+    git config --global alias.st status  
+	
+  - 以图形格式显示log  
+    git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short  
+	
+	- 改别名为vi(view)  
+	  git config --global alias.vi log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short  
+	- 也可以到配置内[alias]项添加内容  
+
+- 凭证
+  - 存储凭证(http协议适用)  
+    git config --global credential.helper wincred  
+	
+  - 方法二看Git入门
+
+- 传输协议
+  - 本地协议
+    - 克隆本地仓库  
+	  git clone /c/wd/test.git  
+	  
+	- 克隆本地仓库（不建议使用）  
+	  git clone file:///c/wd/test.git  
+	  
+	- 添加远程仓库链接
+	  git remote add origin /c/wd/test.git  
+	  
+  - Git协议  
+    - 克隆远程仓库  
+	  git clone git://server_ip/test.git  
+	  
+	- 添加远程仓库的链接  
+	  git remote add origin git://server_ip/test.git  
+	  
+	- 权限缺点是只读或全写，需要配合SSH协议使用，优点是传输快需要开9418端口  
+	
+  - HTTP协议
+    - 克隆远程仓库  
+	  git clone https://github.com/.../test.git  
+	  
+	- 添加远程仓库链接  
+	  git remote add origin https://github.com/.../test.git  
+	  
+	- 优点是简单方便，使用HTTP/HTTPS端口；缺点是公司自建服务器繁琐，传输效率差一些。  
+	
+  - SSH协议  
+    - 克隆远程仓库，一般写成简短的命令  
+	  git clone ssh://git@github.com/.../test.git  
+	  git clone git@github.com:.../test.git  
+	  
+	- 添加远程仓库的链接  
+	  git remote ad origin git@github.com:.../test.git  
+	  
+	- 生产RSA密钥对（在GitHub网站添加公钥）  
+	  ssh-keygen -t rsa -C "your email"  
+	  
+	- 查询公钥信息（复制粘贴到Github里面）  
+	  cat id_rsa.pub  
+	  
+	  
+
+	  
+	
