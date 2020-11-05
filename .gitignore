@@ -1,5 +1,10 @@
+#QT构建项目产生的文件
 *.pro.user
-#Per-User Project Options File
-
 *.pro
-#Qt Project file
+*.stash
+*.Release
+*.Debug
+Makefile
+*.exe
+*.o
+
