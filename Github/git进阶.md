@@ -53,6 +53,8 @@ git reset HEAD
   - #用来注释，输入忽略列表,每行一个。如：*.exe
   - 在Github新建仓库时，官方有提供是否添加.gitignore模板
   - 被过滤掉的文件就不会出现在git仓库中（gitlab或github）了，当然本地库中还有，只是push的时候不会上传。
+  - 查询.exe是被谁忽略(会提示哪一行规则忽略)  
+    git check-ignore -v .exe
   
   
    |.gitignore|忽略规则简单说明|
@@ -89,3 +91,19 @@ git reset HEAD
 !/fw/sf/
 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；注意要先对bin/的父目录使用!规则，使其不被排除。
 ```
+
+- 换行符
+  - CR:carriage return回车，光标到首行；'\r' = return
+  - LF:line feed换行，光标下移一行； '\n' = newline
+    - Linux:换行 \n
+	- Windows:换行 \r\n
+	- MAC OS:换行 \r
+  - 自动转换不同平台换行  
+    - 提交时转换为LF，检出时转换为CRLF（默认是true开启的）  
+	  git config --global core.autocrlf true  
+	  
+	- 允许提交包含混合换行符的,如下：(添加后无警告信息)  
+	  git config --global core.safecrlf false  
+	
+	- 查询配置  
+	  git config --list  
