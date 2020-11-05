@@ -1,0 +1,5 @@
+*.pro.user
+#Per-User Project Options File
+
+*.pro
+#Qt Project file
