@@ -149,10 +149,10 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 <details>
      <summary>答：</summary>
 
-a.H
-b.发出主板扬声器警报声
-c.换行
-d.回退光标
+a.H  
+b.发出主板扬声器警报声  
+c.换行  
+d.回退光标  
  </details>  
 <br/>  
 
@@ -206,8 +206,8 @@ b. 输入如下所示：
 <details>
      <summary>答：</summary>
 
-a. If you qu
-b. HJacrthjacrt
+a. If you qu  
+b. HJacrthjacrt  
  </details>  
 <br/>  
 
