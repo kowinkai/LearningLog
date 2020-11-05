@@ -14,7 +14,7 @@
 [4.guess.c (缓冲输入响应次数)](C_Primer_Plus_code/804/main.c)  
 [5.showchar1.c (getchar与scanf混合使用的情况)](C_Primer_Plus_code/805/main.c)  
 [6.showchar2.c (使用循环剔除未知的缓冲区换行符)](C_Primer_Plus_code/806/main.c)  
-[7.7checking.c (检查字符范围是否有效)](C_Primer_Plus_code/807/main.c)  
+[7.checking.c (检查字符范围是否有效)](C_Primer_Plus_code/807/main.c)  
 [8.menuette.c (菜单技术实现检查字符是否有效与重输入)](C_Primer_Plus_code/808/main.c)  
 
 ### 知识点：  
@@ -135,7 +135,7 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 <details>
      <summary>答：</summary>
 
-
+无效。
  </details>  
 <br/>  
 
@@ -149,7 +149,10 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 <details>
      <summary>答：</summary>
 
-
+a.H
+b.发出主板扬声器警报声
+c.换行
+d.回退光标
  </details>  
 <br/>  
 
@@ -157,15 +160,21 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 <details>
      <summary>答：</summary>
 
-
+count < essay >essayct
  </details>  
 <br/>  
 
 4、给定问题3中的程序和文件，下面哪个命令是正确的？
+```
+a. essayct <essay
+b. count essay
+c. essay >count
+
+```
 <details>
      <summary>答：</summary>
 
-
+c
  </details>  
 <br/>  
 
@@ -173,7 +182,7 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 <details>
      <summary>答：</summary>
 
-
+是文件尾。
  </details>  
 <br/>  
 
@@ -197,7 +206,8 @@ b. 输入如下所示：
 <details>
      <summary>答：</summary>
 
-
+a. If you qu
+b. HJacrthjacrt
  </details>  
 <br/>  
 
@@ -205,7 +215,7 @@ b. 输入如下所示：
 <details>
      <summary>答：</summary>
 
-
+C使用标准I/O包，就屏蔽掉了这些差异。要检查一个换行符。
  </details>  
 <br/>  
 
@@ -213,7 +223,7 @@ b. 输入如下所示：
 <details>
      <summary>答：</summary>
 
-
+取决于接收字符函数的格式，%c按字符收，%d按数字接收。
  </details>  
 <br/>  
 
