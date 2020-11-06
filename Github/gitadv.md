@@ -195,4 +195,32 @@ git reset HEAD
 - status查询（精简参数）  
   git status -sb  
   
-- 
+- 文件变动添加到暂存区（新建、删除、编辑、改名、移动等）  
+  git add .  
+  - 使用git命令进行的删除变动等是有跟踪的，可以回撤  
+  - 直接进行删除变动是不会进入暂存区（跟踪），需要手动添加到暂存区  
+  
+- 一个文件多个提交（会有提示分隔提交）  
+  git add -p \<file name>
+  - Stage this hunk [y,n,q,a,d,/,s,e,?]?
+    y=全部添加 n=不添加 q=退出 a= d= s=分隔添加  
+
+- 工作区与暂存区变更查询
+  git diff \<file name>
+  
+- 暂存区与已提交变更查询  
+  git diff --cached
+  
+- git commit mothed 1(新建文件必须分开提交)  
+  git add .  
+  git commit -m "message"  
+  
+- git commit mothed 2  
+  git commit -a -m "message"  
+  
+- git commit mothed 3  
+  git commit -am "message"  
+  
+  
+- comm
+  
