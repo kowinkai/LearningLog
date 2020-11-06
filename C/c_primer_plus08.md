@@ -133,13 +133,15 @@ C程序将输入视为一个外来字节的流。getchar()函数将每个字节�
 ### 复习题
 区分以下表达式的含义：
 ```
-a.while((ch = getc(fp)) != EOF)
+a.while((ch = getc(fp)) != EOF)  
 b.while((getchar()) != 'y')
 c.if(scanf("%d %d", &rows, &cols) != 2)
 d.while(scanf("%d", &ch) != 1)
 e.while(getchar() != '\n')
 f.if(fp == NULL)
 g.while((choice = get_choice()) != 'q')
+h.while((ch =getchar()) != '\n')
+i.if(ch == '\n')getchar();
 ```
 
 
