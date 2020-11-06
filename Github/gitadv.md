@@ -170,6 +170,29 @@ git reset HEAD
 	  cat id_rsa.pub  
 	  
 	  
-
+- 命令信息  
+  git  
+  
+- 查看全部git子命令  
+  git help -a  
+  
+- 逐行查看文件的修改历史  
+  git blame \<file name>  
 	  
-	
+- 从第100行开始，到110行。逐行查看文件修改历史  
+  git blame -L 100,110 \<file name>  
+  
+- Untracked文件清除
+  - 列出打算清除的档案）  
+    git clean -n  
+  
+  - 删除文件（执行）  
+  git clean -f  
+  
+  - 连.gitignore中忽略的文件也清除  
+  git clean -x -f
+  
+- status查询（精简参数）  
+  git status -sb  
+  
+- 
