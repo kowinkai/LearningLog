@@ -222,5 +222,31 @@ git reset HEAD
   git commit -am "message"  
   
   
-- comm
+- commit提交要保证适当的颗粒度、相关性和独立性  
+  - 以一个小功能、小改进或一个bug fix为单位  
+  - 对应的unit test程序在同一个commit  
+  - 无相关的修改不在同一个commit
+  - 语法错误的半成品程序不能commit  
+
+- commit message规范(现在常用的有Angular规范)  
+  - type常用类型:  
+    - feat:新功能(feature)
+	- fix:修补bug  
+	- docs:文档(documentation)
+	- style:格式(不影响代码运行的变动)
+	- refactor:重构(即不是新功能，也不是修改bug的代码变动)
+	- test:添加测试
+	- chore:构建过程或辅助工具的变动  
+	
+	```
+	<type>(scope):<subject>
+	// 空一行  
+	<body>
+	// 空一行
+	<footer>
+	```
+	详细查阅：
+	www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
+	
+	
   
