@@ -206,10 +206,18 @@ git reset HEAD
     y=全部添加 n=不添加 q=退出 a= d= s=分隔添加  
 
 - 工作区与暂存区变更查询
-  git diff \<file name>
+  git diff \<file name>  
   
 - 暂存区与已提交变更查询  
   git diff --cached
+  
+- 查询指定哈希值修改内容(可一次查多个)  
+  git diff <哈希值>  
+  - 也可以用HEAD来查询
+    git diff HEAD  
+  - 查询diff与标签文件内容比较  
+    git diff <标签名>
+  
   
 - git commit mothed 1(新建文件必须分开提交)  
   git add .  
@@ -249,13 +257,30 @@ git reset HEAD
 	详细查阅：
 	www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
 	
-
-- short and branch  
-  git status -sb  
-  
-- 查看某个提交信息  
+	
+- 查看某个提交信息并显示增减内容  
   git show HEAD  
+  - HEAD代表指针，查最近一个提交  
+  - 查询最近第二个提交在HEAD前加一个^,最近第三加两个^^  
+    git show HEAD^  
+  - 查询最近5个提交  
+    git show HEAD -5  
+  - 只查询最近第二个提交(HEAD~0是第一个)  
+    git show HEAD~1
   
 - 查看提交历史  
-  git log \<file name>  
-  git log --grep <msg>
+  - 按文件查询  
+    git log \<file name>  
+  
+  - 按提交信息进行检索  
+    git log --grep \<msg>  
+  
+  - 查看多少个提交log  
+    git log -n  
+  
+  - 按图形格式显示检索信息(vi是别名)  
+    git vi --grep \<msg>  
+  
+- 添加标签  
+  git tag \<标签名字> HEAD位置  
+  - 也可以用哈希值确定位置  
