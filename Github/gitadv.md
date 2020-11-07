@@ -249,5 +249,13 @@ git reset HEAD
 	详细查阅：
 	www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
 	
-	
+
+- short and branch  
+  git status -sb  
   
+- 查看某个提交信息  
+  git show HEAD  
+  
+- 查看提交历史  
+  git log \<file name>  
+  git log --grep <msg>

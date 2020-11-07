@@ -94,20 +94,20 @@
   
 - 函数类型  
   函数应该进行类型声明。同时其类型应和返回值类型相同。而无返回值的函数应该被声明为void类型。在早期版本的C语言中，如果函数没有进行类型声明，则该函数具有默认的函数类型int。使用这种默认类型的原因是早期大多数C语言函数都是int类型的。但是，C99标准不再支持函数的int类型的默认设置。  
-```
-#include <stdio.h>  
-int imin(int, int);  
-int main(void)  
-{  
+	```
+	#include <stdio.h>  
+	int imin(int, int);  
+	int main(void)  
+	{  
 	int evil1, evil2, lesser;  
 	...  
-#include <stdio.h>  
-int main(void)  
-{  
+	#include <stdio.h>  
+	int main(void)  
+	{  
 	int imin(int, int);  
 	int evil1, evil2, lesser;  
 	...  
-```  
+	```  
   这两种形式中，需要重点注意的是函数声明要在使用函数之前进行。  
   但是不要把函数声明和函数定义混淆。函数声明只是将函数类型告诉编译器，而函数定义部分则是函数的实际实现代码。  
 ```int imax(int,int);```  
