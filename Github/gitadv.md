@@ -239,12 +239,13 @@ git reset HEAD
 	- chore:构建过程或辅助工具的变动  
 	
 	```
-	<type>(scope):<subject>
+	<type>(scope):<subject>  //类型 范围 主题
 	// 空一行  
 	<body>
 	// 空一行
 	<footer>
 	```
+	- git commit后面不带参数就可以多行编辑(还可以关闭requests)
 	详细查阅：
 	www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
 	
