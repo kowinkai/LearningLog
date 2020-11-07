@@ -13,7 +13,7 @@
 第6章  
 [第7章 C控制语句:分支和跳转](C/c_primer_plus07.md)  
 [第8章 字符输入/输出和输入确认](C/c_primer_plus08.md)  
-第9章  
+[第9章 函数](C/c_primer_plus09.md)  
 第10章  
 第11章  
 第12章  
