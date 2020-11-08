@@ -265,7 +265,7 @@ git reset HEAD
     git show HEAD^  
   - 查询最近5个提交  
     git show HEAD -5  
-  - 只查询最近第二个提交(HEAD~0是第一个)  
+  - 只查询最近第二个提交(HEAD\~0是第一个)  
     git show HEAD~1
   
 - 查看提交历史  
@@ -281,6 +281,23 @@ git reset HEAD
   - 按图形格式显示检索信息(vi是别名)  
     git vi --grep \<msg>  
   
-- 添加标签  
-  git tag \<标签名字> HEAD位置  
-  - 也可以用哈希值确定位置  
+- 标签(tag)  
+  - 列出标签  
+    git tag  
+
+  - 添加标签(也可以用哈希值替换HEAD位置)  
+    git tag \<标签名字> HEAD位置  
+
+  - push单个tag(默认push不会送tag到远端服务器)  
+    git push origin [tagname]
+	
+  - push所有tag  
+    git push [origin] --tags  
+	
+  - 删除本地tag  
+    git tag -d [tagname]  
+	
+  - 删除远程tag  
+    git push origin :refs/tags/[tagname]  
+	
+	

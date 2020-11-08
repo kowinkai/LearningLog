@@ -22,21 +22,21 @@
 
   
 ### 程序清单：
-[9.1 lethead1.c ()](C_Primer_Plus_code/901/main.c)  
-[9.2 lethead2.c ()](C_Primer_Plus_code/902/main.c)  
-[9.3 lesser.c ()](C_Primer_Plus_code/903/main.c)  
-[9.4 misuse.c ()](C_Primer_Plus_code/904/main.c)  
-[9.5 proto.c ()](C_Primer_Plus_code/905/main.c)  
-[9.6 recur.c ()](C_Primer_Plus_code/906/main.c)  
-[9.7 factor.c ()](C_Primer_Plus_code/907/main.c)  
-[9.8 binary.c ()](C_Primer_Plus_code/908/main.c)  
-[9.9 usehotel.c ()](C_Primer_Plus_code/909/main.c)  
-[9.10 hotel.c ()](C_Primer_Plus_code/910/main.c)  
-[9.11 hotel.h ()](C_Primer_Plus_code/911/main.c)  
-[9.12 loccheck.c ()](C_Primer_Plus_code/912/main.c)  
-[9.13 swap1.c ()](C_Primer_Plus_code/913/main.c)  
-[9.14 swap2.c ()](C_Primer_Plus_code/914/main.c)  
-[9.15 swap3.c ()](C_Primer_Plus_code/915/main.c)  
+[9.1 lethead1.c (声明函数原型、使用函数、函数定义)](C_Primer_Plus_code/901/main.c)  
+[9.2 lethead2.c (常量与函数)](C_Primer_Plus_code/902/main.c)  
+[9.3 lesser.c (函数传参与返回值)](C_Primer_Plus_code/903/main.c)  
+[9.4 misuse.c (旧式函数以及缺少参数)](C_Primer_Plus_code/904/main.c)  
+[9.5 proto.c (函数缺少参数与改正)](C_Primer_Plus_code/905/main.c)  
+[9.6 recur.c (递归举例)](C_Primer_Plus_code/906/main.c)  
+[9.7 factor.c (使用循环和递归计算阶乘)](C_Primer_Plus_code/907/main.c)  
+[9.8 binary.c (递归求二进制值)](C_Primer_Plus_code/908/main.c)  
+[9.9 usehotel.c (多文件编程之控制模块)](C_Primer_Plus_code/909/main.c)  
+[9.10 hotel.c (多文件编程之函数支持模块)](C_Primer_Plus_code/909/hotel.c)  
+[9.11 hotel.h (多文件编程之自定义头文件)](C_Primer_Plus_code/909/hotel.h)  
+[9.12 loccheck.c (查看变量的内存存储地址)](C_Primer_Plus_code/912/main.c)  
+[9.13 swap1.c (数据交换之错误版)](C_Primer_Plus_code/913/main.c)  
+[9.14 swap2.c (数据交换之调用打印)](C_Primer_Plus_code/914/main.c)  
+[9.15 swap3.c (数据交换之指针完成交换)](C_Primer_Plus_code/915/main.c)  
  
 
 ### 知识点：
