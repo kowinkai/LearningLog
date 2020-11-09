@@ -245,7 +245,8 @@ C中最重要的（有时也是最复杂的）概念之一就是指针(pointer)�
 <details>
      <summary>答：</summary>
 
-	
+	形式参量是函数原型通知编译器所使用的数据类型  
+	实际参数是传入函数的具体数值。  
  </details>  
 <br/>  
 
@@ -256,7 +257,9 @@ c.stuff_it()的参数包括一个double类型的值以及一个double类型变�
 <details>
      <summary>答：</summary>
 
-	
+	a. char donut(int)  
+	b. int gear(int, int)  
+	c. void stuff_it(double, &double)  
  </details>  
 <br/>  
 
@@ -267,7 +270,9 @@ c.random()不接受参数，返回int类型的数值。
 <details>
      <summary>答：</summary>
 
-	
+	a. char n_to_char(int)  
+	b. int digits(double, int)  
+	c. int random(void)  
  </details>  
 <br/>  
 
@@ -275,7 +280,12 @@ c.random()不接受参数，返回int类型的数值。
 <details>
      <summary>答：</summary>
 
-	
+	int add(int a, int b)  
+	{  
+		int x;  
+		x = a + b;  
+		return x;  
+	}  
  </details>  
 <br/>  
 
@@ -283,7 +293,12 @@ c.random()不接受参数，返回int类型的数值。
 <details>
      <summary>答：</summary>
 
-	
+	double add(double a, double b)
+	{  
+		double x;  
+		x = a + b;  
+		return x;  
+	}  
  </details>  
 <br/>  
 
@@ -291,7 +306,14 @@ c.random()不接受参数，返回int类型的数值。
 <details>
      <summary>答：</summary>
 
-	
+	void alter(int *x, int *y)  
+	{  
+	    int he, cha;  
+	    he = *x + *y;  
+	    cha = *x - *y;  
+	    *x = he;  
+	    *y = cha;  
+	}  
  </details>  
 <br/>  
 
@@ -308,7 +330,12 @@ void salami(num)
 <details>
      <summary>答：</summary>
 
-	
+	void salami(int num)  
+	{  
+	    int count;  
+	    for(count = 1; count <= num; count++)  
+	        printf("O salami mio!\n");  
+	}  
  </details>  
 <br/>  
 
@@ -316,13 +343,21 @@ void salami(num)
 <details>
      <summary>答：</summary>
 
-	
+	int max(int a, int b, intc)  
+	{  
+		if(a>b && a>c)  
+			return a;  
+		else if(b>a && b>c)  
+			return b;  
+		else  
+			return c;  
+	}  
  </details>  
 <br/>  
 
 9、给定下面的输出：
 Please choose one of the following:
-1)copy files 2)move files
+1)copy files   2)move files
 3)remove files 4)quit
 Enter the number of your choice:
 a.用一个函数实现菜单的显示，且该菜单有4个用数字编号的选项并要求你选择其中之一（输出应该如题中所示）。
