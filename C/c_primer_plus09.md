@@ -257,9 +257,9 @@ c.stuff_it()的参数包括一个double类型的值以及一个double类型变�
 <details>
      <summary>答：</summary>
 
-	a. char donut(int)  
+	a. void donut(int)  
 	b. int gear(int, int)  
-	c. void stuff_it(double, &double)  
+	c. void stuff_it(double, double *x)
  </details>  
 <br/>  
 
@@ -293,7 +293,7 @@ c.random()不接受参数，返回int类型的数值。
 <details>
      <summary>答：</summary>
 
-	double add(double a, double b)
+	double sum(double a, double b)
 	{  
 		double x;  
 		x = a + b;  
@@ -343,7 +343,7 @@ void salami(num)
 <details>
      <summary>答：</summary>
 
-	int max(int a, int b, intc)  
+	int max(int a, int b, int c)  
 	{  
 		if(a>b && a>c)  
 			return a;  
